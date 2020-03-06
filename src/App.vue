@@ -2,7 +2,8 @@
   <v-app>
     <v-content>
       <v-container>
-        <ScrollTopComponent/>
+<!--        <ScrollTopComponent/>-->
+          <WaterFallsFlowComponent/>
       </v-container>
     </v-content>
   </v-app>
@@ -13,6 +14,7 @@ import NormalWatch from './components/NormalWatch'
 import DeepWatch from './components/DeepWatch'
 import DeepWatchForVar from './components/DeepWatchForVar'
 import ScrollTopComponent from './components/ScrollTopComponent'
+import WaterFallsFlowComponent from './components/WaterFallsFlowComponent'
 export default {
   data () {
     return {
@@ -32,7 +34,8 @@ export default {
     NormalWatch,
     DeepWatch,
     DeepWatchForVar,
-    ScrollTopComponent
+    ScrollTopComponent,
+      WaterFallsFlowComponent
   }
 }
 </script>
